@@ -1,0 +1,11 @@
+//accept = file extension || image/* || video/*|| audio/*
+form attribute = 
+method = get , post || gets use for less form bcoz they have limit 248 character can not upload file in method gets.
+execution get method is fast compare to get method
+post used for large form they have no url character limit we can upload file in method post
+enctype = text/plain || multipart/ form-data
+action
+
+    Enctype = text/plain || multipart
+readonly
+Autocomplete = off

@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <style>
+        #outer
+        {
+            min-height: 700px;
+            width: 1200px;
+            border: 2px solid black;
+            margin: opx auto;
+        }
+        @keyframes slider
+        {
+            0%{
+                background: url(b.jpg);
+                background-size: cover;
+            }
+            50%{
+                background: url(f.jpeg);
+                background-size: cover;
+
+            }
+            100%{
+                background:url(c.jpg)
+                background-size:cover
+            }
+        }
+        
+        #header
+        {
+            height: 100px;
+            width: 1200px;
+            float: left;
+            background: red;
+        }
+        #logo
+        {
+            height: 100px;
+            width: 350px;
+            float: left;
+            background: yellow;
+            font-size: 60px;
+            text-align: center;
+        }
+        #menu
+        {
+            min-height: 100px;
+            width: 850px;
+            float: left;
+            background: red;
+        }
+        #slider
+        {
+            background:url(d.jpg);
+            height: 600px;
+            width: 1200px;
+            background-size:cover;
+            background-attachment: fixed;
+            animation-name: slider;
+            animation-duration: 5sec;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        #services
+        {
+            min-height:300px;
+            width: 1200px;
+            background: black;
+            transition:all ease 5sec;
+
+        }
+        .row
+        {
+            min-height: 180px;
+            width: 330px;
+            background: yellow;
+            float: left;
+            margin: 25px;
+            border: 0px solid red;
+            box-sizing: border-box;
+            transition: all ease 5sec;
+            padding: 5px;
+        }
+        .row:hover
+        {
+            transform: scale(2sec);
+            transition: 2sec;
+            box-shadow: 0px 0px 10px red;
+        }
+        #slider1
+        {
+            height: 600px;
+            width: 1200px;
+            background:url(d.jpg);
+            
+            
+        }
+        #slider2
+        {
+            height: 610px;
+            width: 700px;
+            background:url(f.jpeg);
+            background-size: cover;
+            color: white;
+            text-align: center;
+            //transform: translateY(-10px);
+            //background-color: rgba(255, 128,255, 10px);
+        
+
+           
+            
+        }
+        .a
+        {
+            background-color: blanchedalmond;
+            font-size: 25px;
+            color: red;
+            text-decoration: none;
+            //padding: 5px;
+        }
+        #menu ul li 
+        {
+            min-height: 50px;
+            width: 100px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            color:white;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration:none;
+            border-radius: 10px;
+            background: black;
+            margin: 20px;
+            transform: translateX(-8px);
+
+
+        }
+        // #slider3
+        {
+            height: 610px;
+            width: 500px;
+            background:url(f.jpeg);
+            background-size: cover;
+            color: white;
+            text-align: center;
+            float:right;
+
+        }
+        
+
+
+        
+        
+        
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="header">
+                <div id="logo">HOME</div>
+                <div id="menu">
+                    <ul>
+                     <a href="#"><li> HOME</li></a>
+                     <a href="#"><li> ABOUT</li></a>
+                     <a href="#"><li> CONTACT</li></a>
+                     <a href="#"><li> LOGIN</li></a>
+                     </li></a>
+                    </ul>
+                </div>
+            </div>
+        <div id="slider">
+            <div id="slider1">
+                <div id="slider2">
+                    <h1>HEY ITS ME ABHI</h1>
+                    <div id="slider3">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="services">
+            <div class="row">
+                <img src="g.jpeg" alt="bat" height="150px" width="100%">
+                <center>
+                    <br>
+                    <a href="#" class="a">WITHOUT MAN</a>
+                
+                
+                <p>Lorem ipsum dolor sit amet co</p>
+            </center>
+            </div>
+            <div class="row">
+                <img src="g.jpeg" alt="bat" height="150px" width="100%">
+                <center>
+                    <br>
+
+                    <a href="#" class="a">BAT MAN</a>
+                
+                
+                <p>Lorem ipsum dolor sit amet co</p>
+            </center>
+            </div>
+            <div class="row"><img src="g.jpeg" alt="bat" height="150px" width="100%">
+                <center>
+                    <br>
+                
+                    <a href="#" class="a">MASK MAN</a>
+                    <p>Lorem ipsum dolor sit amet co</p>
+                </center></div>
+
+        </div>
+        </div>
+    </body>
+</html>

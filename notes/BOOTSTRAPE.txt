@@ -1,0 +1,138 @@
+==> WHAT IS TWITTER BOOTSTRAP ?
+-BOOTSTRAP ARE USE TO DESIGN RESPONSIVE MOBILE AND WEBSITE.
+-INCLUDE HTML , CSS , JAVASCRIPT.
+-BOOTSTRAP PROVIDE FASTER AND EASIER WEB DEVELOPMENT.
+-BOOTSTAP PROVIDE PREDEFINED CLASS FOR WEB DEVELOPMENT.
+-BOOTSTRAP DEVELOPED BY MARK OTTO AND JACOB THORNTON AT TWITTER.AND RELEASE AUG 2011
+
+=============================================================
+..>BOOTSTRAP color name PREDEFINED COLOR :
+1.PRIMARY
+2.SECONDARY
+3.INFO
+4.SUCCESS
+5.WARNING
+6.DANGER
+7.DARK
+8.LIGHT
+9.WHITE 
+-----------------------------------------------------------------------------------------------------------------------------
+BACKGROUND =>
+1.bg-color_name
+---------------------------------------------------------------------------------
+TEXT COLOR : 
+text-color_name
+-=----------------------------------------------------
+TEXT-ALIGN
+1.text-center
+2.text-start
+3.text-end
+======================================================
+text-transform: uppercase || lowercase || capitalized
+1.text-uppercase
+2.text-capitalized
+3.text-lowercase
+-----------------------------------------------------------------------------------------------------------
+text-bg-color_name
+--------------------------------------------------------------------------------------------
+FONT SIZE : 
+fs-(1-6)
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5.....
+=============================================]
+FONT-WEIGHT
+fw-bold
+fw-holder
+fw-normal
+fw-lighter
+fw-semibold
+--------------------------------------------------------
+TEXT-DECORATION  :
+text-decoration-underline
+text-decoration-overline
+text-decoration-line-through
+---------------------------------------------------------
+HEADING :
+h1
+h2
+h3
+h4
+h5
+h6
+==========================================
+BOOTSTRAP ALERT BOX
+ alert alert-danger
+alert alert-success
+alert alert-info
+=======================================
+WEIGHT ::
+w-100  100%
+w-75    75%
+w-50
+w-25
+---------------------------------------------------------------------
+ BOOTSTRAP BUTTON ::
+btn color_name
+-----------------------------------------
+BUTTON WITH OUTLINE ::
+btn btn-outline-danger
+btn btn-outline-info
+btn btn-outline-warning
+==========================================
+PADDING ::
+p- value (0-5)
+pt = padding top
+pb = padding buttom
+ps = padding start
+pe = padding end
+px = padding-start, padding-end
+py = padding-top,padding-buttom
+-----------------------------------------------------------------------------------------
+MARGIN ::
+m (0-5)
+mt = margin top
+mb = margin buttom
+ms = margin start
+me = margin end
+mx = margin-start,margin-end
+my = margin-top,margin-buttom
+mx-auto  
+============================================================
+IMAGE-RESPONSIVE ::
+img-fluid, img-thumbnail
+=================================================
+float-left = float-start
+float-right = float-end
+======================================================
+BORDER-RADIUS ::
+rounded
+rounded-top
+rounded-buttom
+rounded-start
+rounded-end
+rounded-pill
+-----------------------------------------------------------------------------------
+BORDER ::
+border
+-------------------------------------------------------------------------------------------------------------------------------
+BREAK POINT ::
+sm<=576px(small device)(mobile)
+md<=768px(medium screen)(tap)
+lg<=992px(large screen)(laptop)
+xl<=1200px(extra large) (tv)
+xxl<=1400px(extra large screen)
+-----------------------------------------------------------------------------------------------------------------------------------
+col-sm-*
+col-ms-*
+col-lg-*
+col-xxl-*
+col-xl-*
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

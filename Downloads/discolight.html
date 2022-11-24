@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            body{  
+  height: 600px; 
+  width: 600px;
+  background:black;
+}
+
+p{
+  color:black;
+  
+  width:420px;
+  height:250px;
+  
+  font-family: 'Oswald', sans-serif;
+  font-size:9em;
+  line-height:1;
+  margin:0;
+  padding:0;
+  
+   
+  transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);  
+  
+  position:absolute;
+  left:50%;
+  top: 60px;
+  margin-left:-180px;
+  
+  
+  animation: anim 3s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+body{  
+  height: 600px; 
+  width: 600px;
+  background:red;
+}
+
+@-webkit-keyframes anim {
+    0%{text-shadow:-6px 4px 0px red;}
+    10% {text-shadow:4px -6px 0px green;}
+    20% {text-shadow:-9px 4px 0px blue;}
+    30% {text-shadow:4px -6px 0px yellow;}
+    40% {text-shadow:-8px 4px 0px orange;}
+    50% {text-shadow:4px 5px 0px purple;}
+    60% {text-shadow:-6px 4px 0px brown;}
+    70% {text-shadow:4px 7px 0px pink;}
+    80% {text-shadow:-9px -4px 0px lime;}
+    90% {text-shadow:4px -6px 0px cyan;}
+    100% {text-shadow:-9px 4px 0px teal;}
+} 
+
+
+        </style>
+    </head>
+    <body>
+        <p>DISCO<br>LIGHTS<br>BOOKS</p>
+    </body>
+</html>

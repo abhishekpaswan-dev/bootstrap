@@ -1,0 +1,39 @@
+position:statics || absolute||relative||fixed|| sticky
+==================================
+top||bottom
+lfet || right
+======================
+z index property
+==========================
+writing-mode:horizontal tb || vertical lr|| vertical rl
+=================================================================================================
+syntax                                                     
+---------
+@keyframes animation name
+{
+from
+{
+propert : value;
+property : value;
+property : value;
+}
+to{
+propert : value;
+property : value;
+property : value;}
+}
+}
+===================================
+ANIMATION-NAME : NAME ;
+ANIMATION-DURATION : 5S ;
+ANIMATION-DELAY : 5S;
+ANIMATION-ITERATION-COUNT : infinite;
+ANIMATION-DIRECTION : NORMAL || ALERNATE || REVERSE || ALTERNATE 
+ANIMATION-PLAY-STATE: RUNNING || PAUSE
+ANIMATION - TIMINF - FUNTION : LINEAR | EASE |EASE-IN |EASE-OUT |EASE - IN -OUT
+
+linear = strt to end same speed.
+ease = slow fast slow
+ease - in = strt slow
+ease - out = end slow
+ease - in -out = strt slow end slow

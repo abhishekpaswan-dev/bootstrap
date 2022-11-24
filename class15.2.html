@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/all.min.css" rel="stylesheet"/>
+        <style>
+           .bg-mycolor
+           {
+            background: linear-gradient(45deg,red,orange) !important;
+
+           }
+           .outer
+           {
+            min-height: 400px;
+           }
+           ::placeholder
+           {
+            color: yellow !important;
+           }
+        </style>
+    </head>
+    <body>
+     <div class="container-fluid outer bg-mycolor p-5">
+        <div class="row">
+            <div class="col-sm-7 text-light text-center" style="padding-top:10% ; font-size:50px;">WELCOME TO TECHPILE <b class="text-info">ADMIN</b>
+                <i class="fa-solid fa-lock"></i><br><br>
+                <a href="#" class="btn btn-outline-light">REGISTER NOW</a>
+            </div>
+            <div class="col-sm-5 login bg-light p-5 mt-5">
+                <p class="h3 text-center ">LOGIN <b class="text-danger">HERE</b></p>
+                <form>
+                    userid<br><input type="Email" class="form-control" required placeholder="ENTER YOUR USER ID"/>
+                    Password<br><input type="password" class="form-control" required placeholder="ENTER YOUR PASSWORD"/>
+                    <input type="SUBMIT" class="btn bg-mycolor text-light " value="login"/>
+                </form>
+            </div>
+        </div>
+     </div>   
+    </body>
+</html>
